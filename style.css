@@ -102,10 +102,24 @@ input::placeholder {
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
+.input-container {
+  position: relative;
+  margin-bottom: .6rem;
+}
+
+.error-icon {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+}
+
 .error-msg {
   color: var(--red-400);
-  font-size: .8rem;
+  font-size: 0.75rem;
   font-style: italic;
+  position: absolute;
+  right: 0;
+  bottom: -7px;
 }
 
 .submitBtn:active,
