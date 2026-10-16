@@ -42,8 +42,13 @@
               required
             />
             <div class="error-wrapper">
-              <img src="/images/icon-error.svg" class="error-icon" alt="" />
-              <p class="error-msg">First Name cannot be empty</p>
+              <!-- <img
+                src="/images/icon-error.svg"
+                class="error-icon"
+                id="error-icon"
+                alt=""
+              />
+              <p class="" id="error-msg">First Name cannot be empty</p> -->
             </div>
           </div>
           <div class="input-container">
@@ -56,8 +61,13 @@
               required
             />
             <div class="error-wrapper">
-              <img src="/images/icon-error.svg" class="error-icon" alt="" />
-              <p class="error-msg">Last Name cannot be empty</p>
+              <!-- <img
+                src="/images/icon-error.svg"
+                class="error-icon"
+                id="error-icon"
+                alt=""
+              />
+              <p class="" id="error-msg">Last Name cannot be empty</p> -->
             </div>
           </div>
           <div class="input-container">
@@ -70,8 +80,15 @@
               required
             />
             <div class="error-wrapper">
-              <img src="/images/icon-error.svg" class="error-icon" alt="" />
-              <p class="error-msg">Looks like this is not an email</p>
+              <!-- <img
+                src="/images/icon-error.svg"
+                class="error-icon"
+                id="error-icon"
+                alt=""
+              />
+              <p class="" id="error-msg">
+                Looks like this is not an email
+              </p> -->
             </div>
           </div>
           <div class="input-container">
@@ -84,11 +101,22 @@
               required
             />
             <div class="error-wrapper">
-              <img src="images/icon-error.svg" class="error-icon" alt="" />
-              <p class="error-msg">Password cannot be empty</p>
+              <!-- <img
+                src="images/icon-error.svg"
+                class=""
+                id="error-icon"
+                alt=""
+              />
+              <p class="" id="error-msg">Password cannot be empty</p> -->
             </div>
           </div>
-          <button type="submit" class="submitBtn">Claim your free trial</button>
+          <button
+            type="submit"
+            class="js-submitBtn submitBtn"
+            onclick="errorDisplay()"
+          >
+            Claim your free trial
+          </button>
           <section class="terms-and-services">
             <footer>
               By clicking the button, you are agreeing to our
@@ -98,5 +126,6 @@
         </form>
       </div>
     </main>
+    <script src="index.js"></script>
   </body>
 </html>

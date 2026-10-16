@@ -111,14 +111,12 @@ input::placeholder {
 }
 
 .error-icon {
-  display: none;
   position: absolute;
   right: 20px;
   top: 12px;
 }
 
 .error-msg {
-  display: none;
   color: var(--red-400);
   font-size: 0.75rem;
   font-style: italic;
