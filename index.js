@@ -17,6 +17,7 @@ function errorDisplay() {
             First Name cannot be empty
           </p>
         `;
+        inputElem.placeholder = "";
       }
 
       if (inputElem.id === "lastName") {
@@ -31,6 +32,7 @@ function errorDisplay() {
             Last Name cannot be empty
           </p>
         `;
+        inputElem.placeholder = "";
       }
 
       if (inputElem.id === "email") {
@@ -60,6 +62,7 @@ function errorDisplay() {
             Password cannot be empty
           </p>
         `;
+        inputElem.placeholder = "";
       }
 
       inputElem.style.border = "2px solid hsl(0, 100%, 74%)";
