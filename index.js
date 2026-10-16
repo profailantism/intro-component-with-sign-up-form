@@ -8,7 +8,7 @@ function errorDisplay() {
       if (inputElem.id === "firstName") {
         inputElem.nextElementSibling.innerHTML = ` 
           <img
-            src="/images/icon-error.svg"
+            src="images/icon-error.svg"
             class="error-icon"
             id="error-icon"
             alt=""
@@ -22,7 +22,7 @@ function errorDisplay() {
       if (inputElem.id === "lastName") {
         inputElem.nextElementSibling.innerHTML = `
           <img
-            src="/images/icon-error.svg"
+            src="images/icon-error.svg"
             class="error-icon"
             id="error-icon"
             alt=""
@@ -36,7 +36,7 @@ function errorDisplay() {
       if (inputElem.id === "email") {
         inputElem.nextElementSibling.innerHTML = `
           <img
-            src="/images/icon-error.svg"
+            src="images/icon-error.svg"
             class="error-icon"
             id="error-icon"
             alt=""
