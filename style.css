@@ -51,9 +51,10 @@ hgroup p {
 
 .subscriptionBtn {
   background-color: var(--purple-700);
+  font-size: 1rem;
   border: none;
   width: 100%;
-  padding: 1rem;
+  padding: 1rem 3rem;
   margin-bottom: 1.5rem;
   border-radius: 7px;
   box-shadow:
